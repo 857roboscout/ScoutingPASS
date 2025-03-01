@@ -31,12 +31,7 @@ var config_data = `
       },
       "defaultValue": "o"
     },
-    { "name": "Other Drivetrain",
-      "code": "odt",
-      "type": "text",
-      "size": 20,
-      "maxSize": 50
-    },
+ 
     { "name": "Swerve Ratio",
       "code": "sr",
       "type": "radio",
