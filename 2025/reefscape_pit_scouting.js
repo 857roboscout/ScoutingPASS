@@ -31,27 +31,27 @@ var config_data = `
     { "name": "Manipulate Algae on Reef",
       "code": "aor",
       "type": "bool"
-    }
+    },
     { "name": "Score in Processor",
       "code": "prc",
       "type": "bool"
-    }
+    },
     { "name": "Score on L1",
       "code": "sca",
-      "type": "bool",
-    {
+      "type": "bool"
+    },
     { "name": "Score on L2",
       "code": "scb",
-      "type": "bool",
-    }
+      "type": "bool"
+    },
     { "name": "Score on L3",
       "code": "scc",
-      "type": "bool",
-    }
+      "type": "bool"
+    },
     { "name": "Score on L4",
       "code": "scd",
-      "type": "bool",
-    }
+      "type": "bool"
+    },
       
        
     { "name": "Floor pickup Coral",
