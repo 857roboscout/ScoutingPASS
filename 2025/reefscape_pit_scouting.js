@@ -14,6 +14,11 @@ var config_data = `
       "type": "number",
       "defaultValue": "0"
     },
+    { "name": "Length",
+      "code": "len",
+      "type": "number",
+      "defaultValue": "0"
+    },
     
     { "name": "Weight",
       "code": "wei",
