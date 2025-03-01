@@ -14,6 +14,11 @@ var config_data = `
       "type": "number",
       "defaultValue": "0"
     },
+    { "name": "Length",
+      "code": "len",
+      "type": "number",
+      "defaultValue": "0"
+    },
     { "name": "Weight",
       "code": "wei",
       "type": "number",
@@ -24,7 +29,7 @@ var config_data = `
       "type": "radio",
       "choices": {
         "s": "Swerve<br>",
-        "w": "West Coast/Tank<br>",
+        "w": "Tank<br>",
         "b": "Butterfly/Grashopper<br>",
         "m": "Mechanum<br>",
         "o": "Other"
@@ -32,34 +37,9 @@ var config_data = `
       "defaultValue": "o"
     },
  
-    { "name": "Swerve Ratio",
-      "code": "sr",
-      "type": "radio",
-      "choices": {
-        "1": "L1 (8.14:1)<br>",
-        "2": "L2 (6.75:1)<br>",
-        "3": "L3 (6.12:1)<br>",
-        "4": "L4 (5.14:1)<br>",
-        "o": "Other ratio (put in comments)<br>",
-        "x": "Not Swerve"
-      },
-      "defaultValue":"x"
-    },
-    { "name": "Drivetrain Motor",
-      "code": "mot",
-      "type": "radio",
-      "choices": {
-        "n": "Neo<br>",
-        "f": "Falcon<br>",
-        "c": "CIM<br>",
-        "x": "Other<br>"
-      },
-      "defaultValue":"x"
-    },
-    { "name": "# of Batteries",
-      "code": "nob",
-      "type": "number"
-    },
+    
+    
+    
     { "name": "Floor pickup Coral",
       "code": "fpu",
       "type": "bool"
@@ -74,12 +54,7 @@ var config_data = `
       "size": 20,
       "maxSize": 250
     },
-    { "name": "Scouting Method /<br>Program (ScoutingPASS?)",
-      "code": "sct",
-      "type": "text",
-      "size": 20,
-      "maxSize": 250
-    },
+    
     { "name": "Comments",
       "code": "co",
       "type": "text",
