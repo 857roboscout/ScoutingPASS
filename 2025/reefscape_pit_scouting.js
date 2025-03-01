@@ -9,16 +9,7 @@ var config_data = `
       "code": "t",
       "type": "number"
     },
-    { "name": "Width",
-      "code": "wid",
-      "type": "number",
-      "defaultValue": "0"
-    },
-    { "name": "Length",
-      "code": "len",
-      "type": "number",
-      "defaultValue": "0"
-    },
+
     
     { "name": "Weight",
       "code": "wei",
@@ -30,17 +21,39 @@ var config_data = `
       "type": "radio",
       "choices": {
         "s": "Swerve<br>",
-        "w": "Tank<br>",
+        "t": "Tank<br>",
         "b": "Butterfly/Grashopper<br>",
         "m": "Mechanum<br>",
         "o": "Other"
       },
       "defaultValue": "o"
     },
- 
-    
-    
-    
+    { "name": "Manipulate Algae on Reef",
+      "code": "aor",
+      "type": "bool"
+    }
+    { "name": "Score in Processor",
+      "code": "prc",
+      "type": "bool"
+    }
+    { "name": "Score on L1",
+      "code": "sca",
+      "type": "bool",
+    {
+    { "name": "Score on L2",
+      "code": "scb",
+      "type": "bool",
+    }
+    { "name": "Score on L3",
+      "code": "scc",
+      "type": "bool",
+    }
+    { "name": "Score on L4",
+      "code": "scd",
+      "type": "bool",
+    }
+      
+       
     { "name": "Floor pickup Coral",
       "code": "fpu",
       "type": "bool"
