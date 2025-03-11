@@ -128,6 +128,10 @@ var config_data = `
       "code": "tns",
       "type": "counter"
     },
+    { "name": "Corals Taken Out of Reef", 
+      "code": "oor",
+      "type": "counter"
+    },
     { "name": "Pickup From",
       "code": "tpu",
       "type": "radio",
