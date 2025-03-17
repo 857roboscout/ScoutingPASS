@@ -22,7 +22,7 @@ var config_data = `
       "choices": {
         "s": "Swerve<br>",
         "t": "Tank<br>",
-        "b": "Butterfly/Grashopper<br>",
+        "b": "Butterfly/Grasshopper<br>",
         "m": "Mechanum<br>",
         "o": "Other"
       },
@@ -53,7 +53,16 @@ var config_data = `
       "type": "bool"
     },
       
-       
+    { "name": "Endgame",
+      "code": "end",
+      "type": "radio",
+      "choices": {
+        "p": "Park<br>",
+        "s": "Shallow<br>",
+        "d": "Deep<br>",
+      },
+      "defaultValue": "p"
+    },
     { "name": "Floor pickup Coral",
       "code": "fpu",
       "type": "bool"
@@ -62,6 +71,7 @@ var config_data = `
       "code": "fpa",
       "type": "bool"
     },
+    
     { "name": "Autos",
       "code": "aut",
       "type": "text",
