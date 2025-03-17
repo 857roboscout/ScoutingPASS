@@ -59,7 +59,7 @@ var config_data = `
       "choices": {
         "p": "Park<br>",
         "s": "Shallow<br>",
-        "d": "Deep<br>",
+        "d": "Deep",
       },
       "defaultValue": "p"
     },
