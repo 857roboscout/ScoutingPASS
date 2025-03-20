@@ -128,7 +128,7 @@ var config_data = `
       "code": "tns",
       "type": "counter"
     },
-    { "name": "Corals Taken Out of Reef", 
+    { "name": "Algae Taken Out of Reef", 
       "code": "oor",
       "type": "counter"
     },
